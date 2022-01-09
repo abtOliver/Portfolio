@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url("images/bg.jpg");
+    background-size: cover;
+    color: antiquewhite;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 10vh;
+    position: absolute;
+    top: 60%;
+    margin-left: 10%;
+}
+
+h1 span {
+    display: block;
+}
+
+nav ul {
+    background: #1F1011;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav li {
+    list-style: none;
+    padding: 15px 20px;
+}
+
+nav li:hover {
+    background: antiquewhite;
+    color: #1F1011;
+}
+
+nav li a {
+    color: inherit;
+    font-family: "Arial Black", sans-serif;
+    text-decoration: none;
+}
+
+#about {
+    background: antiquewhite url("images/image.jpg") no-repeat 10vw 20vh;
+    background-size: 25vw;
+    color: darkslategray;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+#about img {
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+}
+
+#about h2,
+#about p {
+    position: relative;
+    top: 25vh;
+    left: 40vw;
+    width: 15vw;
+}
+
+#about h2 {
+    margin: 10px;
+}
+
+#portfolio {
+    background: lightgray;
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio h2 {
+    margin: 10vh 0 5vh 0;
+    text-align: center;
+}
+
+#portfolio > section {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio img {
+    width: 28vw;
+    height: 32vh;
+}
+
+#portfolio p {
+    text-align: center;
+}
+
+#contacts {
+    height: 50vh;
+    padding-top: 40vh;
+    position: absolute;
+    text-align: center;
+    top: 300%;
+    width: 100%;
+}
+
+footer {
+    background: #1F1011;
+    color: antiquewhite;
+    height: 10vh;
+    position: absolute;
+    text-align: center;
+    top: 390%;
+    width: 100%;
+}
+
+

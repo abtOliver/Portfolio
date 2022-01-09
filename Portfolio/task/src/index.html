@@ -3,15 +3,17 @@
 <head>
     <meta charset="utf-8">
     <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Jasmin Doe, Front-End Developer</h1>
+<header id="header">
+    <h1>Jasmin Doe, <span>Front-End Developer</span></h1>
     <nav>
         <ul>
             <li><a href="#about">About me</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#header">Home</a></li>
         </ul>
     </nav>
 </header>
@@ -25,10 +27,16 @@
     </section>
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <img src="images/project1.png" alt="Project 1" width="500">
-        <p>Flashcards</p>
-        <img src="images/project2.png" alt="Project 2" width="300">
-        <p>Virtual Piano</p>
+        <section>
+            <section>
+                <img src="images/project1.png" alt="Project 1" width="500">
+                <p>Flashcards</p>
+            </section>
+            <section>
+                <img src="images/project2.png" alt="Project 2" width="300">
+                <p>Virtual Piano</p>
+            </section>
+        </section>
     </section>
     <section id="contacts">
         <h2>Contacts</h2>
@@ -37,6 +45,7 @@
     </section>
 </main>
 <footer>
+    <h2>J. Doe</h2>
     <p>There is nothing to see! Move Ahead!</p>
 </footer>
 </body>
