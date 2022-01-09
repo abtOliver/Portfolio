@@ -28,13 +28,23 @@
     <section id="portfolio">
         <h2>Portfolio</h2>
         <section>
-            <section>
+            <section id="portfolio-flashcards">
                 <img src="images/project1.png" alt="Project 1" width="500">
                 <p>Flashcards</p>
+                <button class="open-window" onclick="portfolioDetails('portfolio-flashcards')">Details</button>
+                <div class="window">
+                    <h3>Flashcards</h3>
+                    <button class="close-window" onclick="closeWindow()">Close</button>
+                </div>
             </section>
-            <section>
+            <section id="portfolio-virtual-piano">
                 <img src="images/project2.png" alt="Project 2" width="300">
                 <p>Virtual Piano</p>
+                <button class="open-window" onclick="portfolioDetails('portfolio-virtual-piano')">Details</button>
+                <div class="window">
+                    <h3>Virtual Piano</h3>
+                    <button class="close-window" onclick="closeWindow()">Close</button>
+                </div>
             </section>
         </section>
     </section>
@@ -48,5 +58,6 @@
     <h2>J. Doe</h2>
     <p>There is nothing to see! Move Ahead!</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>

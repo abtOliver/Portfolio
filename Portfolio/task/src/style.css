@@ -103,6 +103,19 @@ nav li a {
     text-align: center;
 }
 
+#portfolio .window {
+    visibility: hidden;
+    background: antiquewhite;
+    border: solid #1F1011 5px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 30%;
+    height: 480px;
+    width: 640px;
+}
+
 #contacts {
     height: 50vh;
     padding-top: 40vh;
