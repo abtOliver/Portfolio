@@ -23,6 +23,14 @@ h1 span {
     display: block;
 }
 
+.hamburger {
+    background: #1F1011;
+    display: none;
+    position: fixed;
+    right: 0;
+    z-index: 101;
+}
+
 nav ul {
     background: #1F1011;
     display: flex;
@@ -48,6 +56,24 @@ nav li a {
     text-decoration: none;
 }
 
+@media (max-width: 900px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        right: 0;
+        width: auto;
+        padding-top: 25px;
+    }
+
+    nav ul li:last-child {
+       order: -1;
+    }
+}
+
 #about {
     background: antiquewhite url("images/image.jpg") no-repeat 10vw 20vh;
     background-size: 25vw;
@@ -68,8 +94,9 @@ nav li a {
 #about p {
     position: relative;
     top: 25vh;
-    left: 40vw;
+    left: 26vw;
     width: 15vw;
+    padding-left: 250px;
 }
 
 #about h2 {

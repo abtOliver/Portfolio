@@ -11,3 +11,14 @@ function closeWindow() {
         elementElement.style.visibility = "hidden";
     }
 }
+
+function hamburgerClick() {
+    const navElement = document.getElementsByClassName("hamburger")[0].parentElement;
+    for (const child of navElement.children) {
+        if(child.tagName === "UL") {
+            child.style.display = getComputedStyle(child).display === "flex"
+                ? "none"
+                : "flex";
+        }
+    }
+}
